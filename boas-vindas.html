@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinos | RotaMundo Viagens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="boas-vindas.html" class="brand">Rota<span>Mundo</span></a>
+
+    <nav class="nav-links topnav">
+      <a href="#destaques">Destaques</a>
+      <a href="#roteiros">Meus Roteiros</a>
+      <a href="#ofertas">Ofertas do Dia</a>
+      <span class="badge" id="nomeNav">Viajante</span>
+      <a href="index.html" class="btn secondary small" onclick="sair()">Sair</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="panel" style="margin-bottom: 24px;">
+      <div class="eyebrow">Área do Viajante</div>
+      <h1>Prepare as malas!</h1>
+      <p class="subtitle" id="mensagemBoasVindas">Carregando seu perfil de viagem...</p>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section id="destaques" class="destaques">
+      <a href="#ofertas" class="card-destaque">
+        <img src="img/toquio.jpg" alt="Pacote Tóquio e Monte Fuji">
+      </a>
+
+      <a href="#ofertas" class="card-destaque">
+        <img src="img/paris.jpg" alt="Roteiro Romântico em Paris">
+      </a>
+
+      <a href="#ofertas" class="card-destaque">
+        <img src="img/patagonia.jpg" alt="Expedição Patagônia">
+      </a>
+    </section>
+
+    <!-- SEUS ROTEIROS SALVOS -->
+    <section id="roteiros">
+      <h2>Seus roteiros salvos</h2>
+
+      <div class="cards">
+        <a href="#ofertas" class="card">
+          <img src="img/kyoto.jpg" alt="Kyoto, Japão">
+          <span>Kyoto &amp; Templos</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/amalfi.jpg" alt="Costa Amalfitana, Itália">
+          <span>Costa Amalfitana</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/fernando-noronha.jpg" alt="Fernando de Noronha, Brasil">
+          <span>Fernando de Noronha</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/santorini.jpg" alt="Santorini, Grécia">
+          <span>Ilhas Gregas</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/bariloche.jpg" alt="Bariloche, Argentina">
+          <span>Inverno em Bariloche</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/maldivas.jpg" alt="Ilhas Maldivas">
+          <span>Bangalôs nas Maldivas</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- PACOTES E OFERTAS DO DIA -->
+    <section id="ofertas" class="lancamentos">
+      <h2>Ofertas relâmpago do dia</h2>
+
+      <div class="cards">
+        <a href="#ofertas" class="card">
+          <img src="img/lisboa.jpg" alt="Lisboa e Porto">
+          <span>Portugal Clássico - 7 dias</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/cancun.jpg" alt="Cancún All Inclusive">
+          <span>Cancún All Inclusive</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/gramado.jpg" alt="Serra Gaúcha">
+          <span>Fim de semana em Gramado</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/nova-york.jpg" alt="Nova York">
+          <span>Nova York &amp; Broadway</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/cusco.jpg" alt="Machu Picchu, Peru">
+          <span>Trilha Inca &amp; Cusco</span>
+        </a>
+
+        <a href="#ofertas" class="card">
+          <img src="img/cairo.jpg" alt="Egito Histórico">
+          <span>Pirâmides &amp; Rio Nilo</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="social">
+      <a href="#" aria-label="Instagram RotaMundo"></a>
+      <a href="#" aria-label="YouTube RotaMundo"></a>
+      <a href="#" aria-label="TikTok RotaMundo"></a>
+      <a href="#" aria-label="Facebook RotaMundo"></a>
+    </div>
+
+    <p>RotaMundo Viagens e Turismo — Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="boas-vindas.js"></script>
+</body>
+</html>
